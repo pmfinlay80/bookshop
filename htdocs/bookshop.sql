@@ -166,7 +166,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 -- Dumping data for table bookshop.users: ~2 rows (approximately)
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
 INSERT IGNORE INTO `users` (`id`, `firstName`, `surname`, `email`, `pass`, `regDate`, `admin`) VALUES
-	(5, 'Pauline', 'Finlay', 'pmfinlay@icloud.com', '7c4a8d09ca3762af61e59520943dc26494f8941b', '2019-04-06 10:56:21', 1),
+	(5, 'Pauline', 'Finlay', 'pfinlay@gmail.com', '7c4a8d09ca3762af61e59520943dc26494f8941b', '2019-04-06 10:56:21', 1),
 	(6, 'Matt', 'White', 'mattwhite@yahoo.co.uk', '348162101fc6f7e624681b7400b085eeac6df7bd', '2019-04-06 22:57:00', 0);
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 
